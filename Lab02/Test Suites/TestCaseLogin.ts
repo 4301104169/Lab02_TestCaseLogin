@@ -15,13 +15,13 @@
       <guid>d2ba0338-d414-40fa-a718-d8a99bc90c6e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Check login with all empty fields</testCaseId>
+      <testCaseId>Test Cases/Check_login_with_all_empty_fields</testCaseId>
    </testCaseLink>
    <testCaseLink>
       <guid>2ba344f6-72e0-4e6b-97e8-f499f3bff109</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Check login with correct Username and Password</testCaseId>
+      <testCaseId>Test Cases/Check_login_with_correct_Username_and_Password</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -33,7 +33,7 @@
       <guid>0088b0bd-3030-40fb-b612-23ed8c30c547</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Check login with correct Username and wrong Password</testCaseId>
+      <testCaseId>Test Cases/Check_login_with_correct_Username_and_wrong_Password</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -45,7 +45,7 @@
       <guid>ba5cc86f-623c-4f53-96a1-532f19392722</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Check login with wrong Username and correct Password</testCaseId>
+      <testCaseId>Test Cases/Check_login_with_wrong_Username_and_correct_Password</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -57,7 +57,7 @@
       <guid>885df464-6402-4a03-8745-6ec144fe38b7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Check login with wrong Username and Password</testCaseId>
+      <testCaseId>Test Cases/Check_login_with_wrong_Username_and_Password</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>

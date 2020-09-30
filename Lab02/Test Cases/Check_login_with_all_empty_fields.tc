@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description>Kiểm tra đăng nhập với tên tài khoản và mật khẩu để trống</description>
-   <name>Check login with all empty fields</name>
+   <name>Check_login_with_all_empty_fields</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>ef050dda-f6f7-41b3-9af1-09b9cb77a6da</testCaseGuid>

@@ -15,7 +15,7 @@
       <guid>4cebf6bb-b879-4b4a-9f5a-f6812566d398</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Check login with wrong Username and Password</testCaseId>
+      <testCaseId>Test Cases/Check_login_with_wrong_Username_and_Password</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -27,7 +27,7 @@
       <guid>c5ebaca8-02be-48e3-a6ae-6ff76ecb795a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Check login with wrong Username and correct Password</testCaseId>
+      <testCaseId>Test Cases/Check_login_with_wrong_Username_and_correct_Password</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -39,7 +39,7 @@
       <guid>54b092db-13f1-4d01-8c37-9acb8dacec38</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Check login with correct Username and wrong Password</testCaseId>
+      <testCaseId>Test Cases/Check_login_with_correct_Username_and_wrong_Password</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -51,7 +51,7 @@
       <guid>8d14e7cc-59ee-4b3a-a427-f78bc168a714</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Check login with correct Username and Password</testCaseId>
+      <testCaseId>Test Cases/Check_login_with_correct_Username_and_Password</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -63,6 +63,6 @@
       <guid>f4d1fa83-8640-4e0e-9f8b-9af0df8748f7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Check login with all empty fields</testCaseId>
+      <testCaseId>Test Cases/Check_login_with_all_empty_fields</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
