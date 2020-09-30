@@ -1,0 +1,58 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestCaseLogin,Chrome 85.0.4183.102,,,2020-09-24 11:23:42,2020-09-24 11:24:56,1m - 13.918s,PASSED
+,,,,,,,
+Test Cases/Check login with all empty fields,Chrome 85.0.4183.102,Kiểm tra đăng nhập với tên tài khoản và mật khẩu để trống,,2020-09-24 11:23:42,2020-09-24 11:23:58,15.260s,PASSED
+"openBrowser("""")",Chrome 85.0.4183.102,,,2020-09-24 11:23:43,2020-09-24 11:23:50,6.656s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 85.0.4183.102,,,2020-09-24 11:23:50,2020-09-24 11:23:53,2.995s,PASSED
+"click(findTestObject(""Object Repository/All_Empty_Fields/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 85.0.4183.102,,,2020-09-24 11:23:53,2020-09-24 11:23:53,0.654s,PASSED
+"click(findTestObject(""Object Repository/All_Empty_Fields/Page_CURA Healthcare Service/a_Login""))",Chrome 85.0.4183.102,,,2020-09-24 11:23:53,2020-09-24 11:23:55,1.167s,PASSED
+"click(findTestObject(""Object Repository/All_Empty_Fields/Page_CURA Healthcare Service/button_Login""))",Chrome 85.0.4183.102,,,2020-09-24 11:23:55,2020-09-24 11:23:56,1.430s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/All_Empty_Fields/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5""), 0)",Chrome 85.0.4183.102,,,2020-09-24 11:23:56,2020-09-24 11:23:56,0.448s,PASSED
+closeBrowser(),Chrome 85.0.4183.102,,,2020-09-24 11:23:56,2020-09-24 11:23:58,1.210s,PASSED
+,,,,,,,
+Test Cases/Check login with correct Username and Password,Chrome 85.0.4183.102,Kiểm tra đăng nhập với tên tài khoản và mật khẩu đều đúng,,2020-09-24 11:23:58,2020-09-24 11:24:14,16.381s,PASSED
+"openBrowser("""")",Chrome 85.0.4183.102,,,2020-09-24 11:23:58,2020-09-24 11:24:02,3.588s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 85.0.4183.102,,,2020-09-24 11:24:02,2020-09-24 11:24:06,3.785s,PASSED
+"click(findTestObject(""Object Repository/Correct_Username_And_Password/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""))",Chrome 85.0.4183.102,,,2020-09-24 11:24:06,2020-09-24 11:24:06,0.500s,PASSED
+"click(findTestObject(""Object Repository/Correct_Username_And_Password/Page_CURA Healthcare Service/a_Login""))",Chrome 85.0.4183.102,,,2020-09-24 11:24:06,2020-09-24 11:24:07,1.190s,PASSED
+"setText(findTestObject(""Object Repository/Correct_Username_And_Password/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 85.0.4183.102,,,2020-09-24 11:24:07,2020-09-24 11:24:08,0.988s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Correct_Username_And_Password/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 85.0.4183.102,,,2020-09-24 11:24:08,2020-09-24 11:24:09,0.863s,PASSED
+"click(findTestObject(""Object Repository/Correct_Username_And_Password/Page_CURA Healthcare Service/button_Login""))",Chrome 85.0.4183.102,,,2020-09-24 11:24:09,2020-09-24 11:24:10,1.236s,PASSED
+"click(findTestObject(""Object Repository/Correct_Username_And_Password/Page_CURA Healthcare Service/section_Make Appointment                   _57f49e""))",Chrome 85.0.4183.102,,,2020-09-24 11:24:10,2020-09-24 11:24:11,0.578s,PASSED
+"click(findTestObject(""Object Repository/Correct_Username_And_Password/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 85.0.4183.102,,,2020-09-24 11:24:11,2020-09-24 11:24:12,0.572s,PASSED
+"click(findTestObject(""Object Repository/Correct_Username_And_Password/Page_CURA Healthcare Service/a_Logout""))",Chrome 85.0.4183.102,,,2020-09-24 11:24:12,2020-09-24 11:24:13,1.281s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Correct_Username_And_Password/Page_CURA Healthcare Service/a_CURA Healthcare_menu-toggle""), 0)",Chrome 85.0.4183.102,,,2020-09-24 11:24:13,2020-09-24 11:24:13,0.385s,PASSED
+closeBrowser(),Chrome 85.0.4183.102,,,2020-09-24 11:24:13,2020-09-24 11:24:14,0.853s,PASSED
+,,,,,,,
+Test Cases/Check login with correct Username and wrong Password,Chrome 85.0.4183.102,Kiểm tra đăng nhập với đúng tên tài khoản và sai mật khẩu,,2020-09-24 11:24:14,2020-09-24 11:24:28,14.193s,PASSED
+"openBrowser("""")",Chrome 85.0.4183.102,,,2020-09-24 11:24:15,2020-09-24 11:24:18,3.607s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 85.0.4183.102,,,2020-09-24 11:24:18,2020-09-24 11:24:22,3.862s,PASSED
+"click(findTestObject(""Object Repository/Correct_Username_And_Wrong_Password/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 85.0.4183.102,,,2020-09-24 11:24:22,2020-09-24 11:24:23,0.477s,PASSED
+"click(findTestObject(""Object Repository/Correct_Username_And_Wrong_Password/Page_CURA Healthcare Service/a_Login""))",Chrome 85.0.4183.102,,,2020-09-24 11:24:23,2020-09-24 11:24:24,1.088s,PASSED
+"setText(findTestObject(""Object Repository/Correct_Username_And_Wrong_Password/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 85.0.4183.102,,,2020-09-24 11:24:24,2020-09-24 11:24:25,0.870s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Correct_Username_And_Wrong_Password/Page_CURA Healthcare Service/input_Password_password""), ""ib8hrRQklRUkn3gfaSQjLg=="")",Chrome 85.0.4183.102,,,2020-09-24 11:24:25,2020-09-24 11:24:25,0.661s,PASSED
+"click(findTestObject(""Object Repository/Correct_Username_And_Wrong_Password/Page_CURA Healthcare Service/button_Login""))",Chrome 85.0.4183.102,,,2020-09-24 11:24:25,2020-09-24 11:24:27,1.446s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Correct_Username_And_Wrong_Password/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5""), 0)",Chrome 85.0.4183.102,,,2020-09-24 11:24:27,2020-09-24 11:24:27,0.429s,PASSED
+closeBrowser(),Chrome 85.0.4183.102,,,2020-09-24 11:24:27,2020-09-24 11:24:28,1.248s,PASSED
+,,,,,,,
+Test Cases/Check login with wrong Username and correct Password,Chrome 85.0.4183.102,Kiểm tra đăng nhập với sai tên tài khoản và đúng mật khẩu,,2020-09-24 11:24:28,2020-09-24 11:24:43,14.846s,PASSED
+"openBrowser("""")",Chrome 85.0.4183.102,,,2020-09-24 11:24:29,2020-09-24 11:24:33,3.670s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 85.0.4183.102,,,2020-09-24 11:24:33,2020-09-24 11:24:36,3.970s,PASSED
+"click(findTestObject(""Object Repository/Wrong_Username_And_Correct_Password/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 85.0.4183.102,,,2020-09-24 11:24:36,2020-09-24 11:24:37,0.794s,PASSED
+"click(findTestObject(""Object Repository/Wrong_Username_And_Correct_Password/Page_CURA Healthcare Service/a_Login""))",Chrome 85.0.4183.102,,,2020-09-24 11:24:37,2020-09-24 11:24:38,1.095s,PASSED
+"setText(findTestObject(""Object Repository/Wrong_Username_And_Correct_Password/Page_CURA Healthcare Service/input_Username_username""), ""johndoe"")",Chrome 85.0.4183.102,,,2020-09-24 11:24:38,2020-09-24 11:24:39,0.999s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Wrong_Username_And_Correct_Password/Page_CURA Healthcare Service/input_Password_password""), ""PZQwh3QeQDDcirbK8Iu+E413IX9ElTWk"")",Chrome 85.0.4183.102,,,2020-09-24 11:24:39,2020-09-24 11:24:40,0.636s,PASSED
+"click(findTestObject(""Object Repository/Wrong_Username_And_Correct_Password/Page_CURA Healthcare Service/button_Login""))",Chrome 85.0.4183.102,,,2020-09-24 11:24:40,2020-09-24 11:24:41,1.279s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Wrong_Username_And_Correct_Password/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5""), 0)",Chrome 85.0.4183.102,,,2020-09-24 11:24:41,2020-09-24 11:24:42,0.447s,PASSED
+closeBrowser(),Chrome 85.0.4183.102,,,2020-09-24 11:24:42,2020-09-24 11:24:43,1.401s,PASSED
+,,,,,,,
+Test Cases/Check login with wrong Username and Password,Chrome 85.0.4183.102,Kiểm tra đăng nhập với tên tài khoản và mật khẩu đều sai,,2020-09-24 11:24:43,2020-09-24 11:24:56,12.643s,PASSED
+"openBrowser("""")",Chrome 85.0.4183.102,,,2020-09-24 11:24:44,2020-09-24 11:24:47,3.445s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 85.0.4183.102,,,2020-09-24 11:24:47,2020-09-24 11:24:50,2.950s,PASSED
+"click(findTestObject(""Object Repository/Wrong_Username_And_Password/Page_CURA Healthcare Service/i_CURA Healthcare_fa fa-bars""))",Chrome 85.0.4183.102,,,2020-09-24 11:24:50,2020-09-24 11:24:50,0.475s,PASSED
+"click(findTestObject(""Object Repository/Wrong_Username_And_Password/Page_CURA Healthcare Service/a_Login""))",Chrome 85.0.4183.102,,,2020-09-24 11:24:50,2020-09-24 11:24:52,1.230s,PASSED
+"setText(findTestObject(""Object Repository/Wrong_Username_And_Password/Page_CURA Healthcare Service/input_Username_username""), ""Jonhdoeee"")",Chrome 85.0.4183.102,,,2020-09-24 11:24:52,2020-09-24 11:24:53,0.960s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Wrong_Username_And_Password/Page_CURA Healthcare Service/input_Password_password""), ""wl0LvoOtaVwzypN4kraLMF7jpm206SQJ"")",Chrome 85.0.4183.102,,,2020-09-24 11:24:53,2020-09-24 11:24:53,0.646s,PASSED
+"click(findTestObject(""Object Repository/Wrong_Username_And_Password/Page_CURA Healthcare Service/button_Login""))",Chrome 85.0.4183.102,,,2020-09-24 11:24:53,2020-09-24 11:24:55,1.275s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Wrong_Username_And_Password/Page_CURA Healthcare Service/p_Login failed Please ensure the username a_eb55b5""), 0)",Chrome 85.0.4183.102,,,2020-09-24 11:24:55,2020-09-24 11:24:55,0.420s,PASSED
+closeBrowser(),Chrome 85.0.4183.102,,,2020-09-24 11:24:55,2020-09-24 11:24:56,0.855s,PASSED
